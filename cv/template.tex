@@ -230,7 +230,15 @@ at {{item.event}}, {{item.date | date: "%B %Y"}}.
 \emph{\hspace{0pt}{{item.organization}}} --- {{item.title}} ({{item.year}}) \\
 {{item.responsibility}}
 \end{samepage}
+{% endfor %}
 
+\vspace{6pt}
+\section{\large References}
+{% for item in references %}
+\begin{samepage}
+{\bf {{item.name}} }
+{{item.title}}
+\end{samepage}
 {% endfor %}
 
 
