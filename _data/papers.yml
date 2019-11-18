@@ -93,7 +93,7 @@
     verify, and can be made arbitrarily difficult to solve.
 - title: "Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice"
   date: 2015-10-01
-  authors: David Adrian, Karthikeyan Bhargavan, Zakir Durumeric, Pierrick Gaudry, Matthew Green, J. Alex Halderman, Nadia Heninger, Drew Springall, Emmanuel Thomé, Luke Valenta, Benjamin VanderSloot, Eric Wustrow, Santiago Zanella-Beguelin, and Paul Zimmermann
+  authors: David Adrian, Karthikeyan Bhargavan, Zakir Durumeric, Pierrick Gaudry, Matthew Green, J. Alex Halderman, Nadia Heninger, Drew Springall, Emmanuel Thome, Luke Valenta, Benjamin VanderSloot, Eric Wustrow, Santiago Zanella-Beguelin, and Paul Zimmermann
   conference: Proceedings of the ACM Conference on Computer and Communications Security
   abbreviation: (CCS'15)
   month: October 2015
