@@ -95,10 +95,8 @@ My research focuses on security and privacy in widely used computer systems and 
 \begin{samepage}
 {\bf \href{ {{item.url}} }{ {{item.title}} } } \\
 {{item.authors | replace: "Benjamin VanderSloot", name }}\\
-{% if item.conference == "Under Submission" %}
- \emph{\hspace{0pt}{{item.conference}} }, {{item.month}}.
-{% else %}
-In \emph{\hspace{0pt}{{item.conference}} } \\
+{% if item.conference == "Under Submission" %} \emph{\hspace{0pt}{{item.conference}} }, {{item.month}}.
+{% else %} In \emph{\hspace{0pt}{{item.conference}} } \\
 \textbf{ {{item.abbreviation}} }, {{item.month}}.
 {% if item.additional %} \\ ---{\bf {{item.additional}} } {% endif %}
 {% endif %}
