@@ -33,8 +33,12 @@ published: true
 {% for item in site.data.papers %}
                 <p><a href="{{ item.url }}">{{ item.title }}</a></br>
 				{{item.authors | replace: "Benjamin VanderSloot", "<b>Benjamin VanderSloot</b>"}}</br>
+				{% if item.conference == "Under Submission" %}
+				<i>{{item.conference}}</i>, {{item.month}}.
+				{% else %}
 				In <i>{{item.conference}}</i></br>
 				<b>{{item.abbreviation}}</b>, {{item.month}}.
+				{% endif %}
                 </p>
 {% endfor %}
             </div>

@@ -1,3 +1,11 @@
+- title: "Beyond Acceptable Advertisement: Better Understanding Blocking Extensions"
+  date: 2019-12-01
+  authors: Benjamin VanderSloot, Steven Sprecher, J. Alex Halderman
+  conference: Under Submission
+  month: December 2019
+  url: https://benvds.com/papers/acceptable.pdf
+  top: false
+  frontpage: false
 - title: "403 Forbidden: A Global View of CDN Geoblocking"
   date: 2018-11-01
   authors: Allison McDonald, Matthew Bernhard, Luke Valenta, Benjamin VanderSloot, Will Scott, Nick Sullivan, J. Alex Halderman, Roya Ensafi
